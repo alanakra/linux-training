@@ -86,7 +86,7 @@ sed '1i\\# Rapport généré automatiquement' fichiers/report.csv
 **Commande attendue :**
 
 ```bash
-outscale@dev:~/Projets/linux-training/tp-02-02-sed$ sed '/<VirtualHost.*>/,/<\/VirtualHost>/c\# Bloc supprimé par sécurité' fichiers/apache.conf
+sed '/<VirtualHost.*>/,/<\/VirtualHost>/c\# Bloc supprimé par sécurité' fichiers/apache.conf
 ```
 
 ---
